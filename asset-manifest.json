@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/shopping-cart/static/css/main.e7720ab7.css",
-    "main.js": "/shopping-cart/static/js/main.5764e0b4.js",
+    "main.js": "/shopping-cart/static/js/main.d8867613.js",
     "static/media/egg-tart.jpg": "/shopping-cart/static/media/egg-tart.530d890c8674f8fe2f1f.jpg",
     "index.html": "/shopping-cart/index.html",
     "main.e7720ab7.css.map": "/shopping-cart/static/css/main.e7720ab7.css.map",
-    "main.5764e0b4.js.map": "/shopping-cart/static/js/main.5764e0b4.js.map"
+    "main.d8867613.js.map": "/shopping-cart/static/js/main.d8867613.js.map"
   },
   "entrypoints": [
     "static/css/main.e7720ab7.css",
-    "static/js/main.5764e0b4.js"
+    "static/js/main.d8867613.js"
   ]
 }
