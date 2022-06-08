@@ -6,8 +6,8 @@ export default function Header() {
           <Container>
               <Navbar.Brand>J's Bakery</Navbar.Brand>
               <Nav variant="pills">
-                <Nav.Link href="/">Home</Nav.Link>
-                <Nav.Link href="/Shop">Shop</Nav.Link>
+                <Nav.Link href="/shopping-cart/">Home</Nav.Link>
+                <Nav.Link href="/shopping-cart/Shop">Shop</Nav.Link>
               </Nav>
           </Container>
       </Navbar>

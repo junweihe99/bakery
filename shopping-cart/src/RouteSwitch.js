@@ -6,8 +6,8 @@ export default function RouteSwitch() {
   return (
     <BrowserRouter>
         <Routes>
-            <Route path ="/" element={<App />}/>
-            <Route path ="/Shop" element={<Shop />}/>
+            <Route path ="/shopping-cart/" element={<App />}/>
+            <Route path ="/shopping-cart/Shop" element={<Shop />}/>
         </Routes>
     </BrowserRouter>
   )
