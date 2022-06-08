@@ -1,11 +1,11 @@
 import { Navbar, Container, Nav } from 'react-bootstrap';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 import Home from './Home';
 import Shop from './Shop';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navbar bg="light" variant="light" className="py-4">
         <Container>
             <Navbar.Brand>J's Bakery</Navbar.Brand>
@@ -19,7 +19,7 @@ function App() {
           <Route path ="/shopping-cart" element={<Home />}/>
           <Route path ="/shopping-cart/Shop" element={<Shop />}/>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
