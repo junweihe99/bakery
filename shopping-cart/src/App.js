@@ -11,7 +11,6 @@ function App() {
             <a href="/shopping-cart" style={{textDecoration:"none"}}><Navbar.Brand>J's Bakery</Navbar.Brand></a>
             <Nav variant="pills" style={{gap:"1rem"}}>
               <a href="/shopping-cart" style={{color: "black", textDecoration:"none"}}>Home</a>
-              <a href="/shopping-cart/Shop" style={{color: "black", textDecoration:"none"}}>Shop</a>
             </Nav>
         </Container>
       </Navbar>
