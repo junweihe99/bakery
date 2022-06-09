@@ -1,4 +1,4 @@
-import { Card, Button } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 import eggTart from "../pics/egg-tart.jpg";
 
 export default function Product() {
