@@ -8,12 +8,14 @@ const list = [
         title: "Egg Tart",
         price: 1.49,
         img: eggTart,
+        amount: 0,
     },
     {
         id: 2,
         title: "Cream Puff",
         price: 1.75,
         img: creamPuff,
+        amount: 0,
     },
 ];
 
