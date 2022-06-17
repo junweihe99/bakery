@@ -1,5 +1,5 @@
-# shopping-cart
-Shopping cart is an web application designed to work like a typical sales website with a home page and a products page with a checkout option. The overall structure of the website was set up using React and styled with React-bootstrap and css. JavaScript was used to set up user interactivity. This project is focused on the front-end aspect and will not be dealing with backend features.
+# Shopping-cart
+Shopping-cart is an web application designed to work like a typical sales website with a home page and a products page with a checkout option. The overall structure of the website was set up using React and styled with React-bootstrap and css. JavaScript was used to set up user interactivity. This project is focused on the front-end aspect and will not be dealing with backend features.
 
 <h4>Features</h4>
   <ul>
