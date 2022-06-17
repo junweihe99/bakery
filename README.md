@@ -4,7 +4,7 @@ Shopping-cart is an web application designed to work like a typical sales websit
 <h4>Features</h4>
   <ul>
     <li>Adding and removing products to cart
-    <li>Routing with multiple webpages
+    <li>Routing with multiple webpages (using navigate)
   </ul>
   
 <h4>Challenges</h4>
@@ -15,10 +15,12 @@ Shopping-cart is an web application designed to work like a typical sales websit
 
 <h4>Improvements to Add</h4>
   <ul>
-    <li>Add more products
+    <li>Add more products (added data.js file to be able to add more products whenever needed)
+    <li>Fix the bug where amount of items stay the same even after removing from chart
   </ul>
 
 <h4>Credits</h4>
   <ul>
     <li><a href="https://www.theodinproject.com/lessons/node-path-javascript-shopping-cart">The Odin Project</a>
+    <li><a href="https://www.youtube.com/watch?v=S5q4sPe_K_Q">YouTube</a>
   </ul>
