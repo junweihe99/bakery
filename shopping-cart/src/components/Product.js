@@ -1,11 +1,14 @@
-import { Card } from "react-bootstrap";
-import eggTart from "../pics/egg-tart.jpg";
+import list from "../data"
+import Cards from "./Cards"
+import { useState } from "react";
 
-export default function Product() {
+export default function Product( {handleClick} ) {
   return (
-    <Card className="mx-auto" style={{ width: "18rem", marginTop: "3rem", border: "0px solid yellow", boxShadow:"0px 0px 5px 10px black"}}>
-            <Card.Img src={eggTart} />
-            <Card.Body className="text-center" style={{background:"yellow", fontWeight: "bold"}}>Egg Tarts - $1.49 ea</Card.Body>
-    </Card>
-  )
-}
+    <section className="mx-auto" style={{display: "grid", gridTemplateColumns:"repeat(3,1fr)", gridGap:"2rem"}}>
+      {
+        list.map((item) => (
+          <Cards key={item.id} item={item} handleClick={handleClick}/>)
+      )}
+    </section>
+  );
+};
